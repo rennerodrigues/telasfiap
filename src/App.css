@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -24,6 +25,15 @@
   color: white;
 }
 
+.bdhome {
+  background-color: #122e2e;
+  padding: 20px;
+}
+
+.navbar {
+  position:initial !important;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +45,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-link:hover {
+  background-color: #122e2e;
+  color: #fff !important;
 }
